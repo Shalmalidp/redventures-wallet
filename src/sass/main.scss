@@ -1,0 +1,147 @@
+.container {
+  border: 3em solid #FFCC66;
+  width: 80%;
+  margin : 8% auto;
+}
+.inside{
+  width:100%;
+  border: 3% solid #FFCC66;
+  border-radius :5%;
+  z-index :1;
+}
+
+.three-cards{
+  width:40%;
+  display: inline-block;
+  overflow: hidden;
+  background-color: #F2F2F2;
+}
+.title-plus{
+  text-align: center;
+}
+ h3{
+  display: inline-block;
+  color:#757988;
+}
+.plus-big{
+  display:inline-block;
+  text-align :center;
+  color:#C6CCE2;
+  font-size: 30px;
+  border-radius :50%;
+  overflow:hidden;
+  margin: 5% 0% -1% 55%;
+}
+
+.card-one, .card-two, .card-three{
+  border :0.1em solid grey;
+  margin :10% 7%;
+}
+.card-one:active,.card-one:hover, .card-two:active,.card-two:hover, .card-three:active,.card-two:hover{
+  border:0.2em solid #8493CA;
+}
+
+.card{
+  width:20%;
+  border-radius: 7%;
+  margin :1%;
+  padding: 5%;
+  
+}
+.number{
+  vertical-align: top;
+  padding-left : 5%;
+  letter-spacing: 5px;
+  font-family: Helvetica, sans-serif;
+  color:grey;
+  margin-bottom : 0;
+  font-size: 1.2em;
+}
+
+h5{
+  vertical-align: top;
+  padding-left : 5%;
+  color:lightgrey;
+}
+
+.details-container{
+  width:59%;
+  float:right;
+  display: inline-block;
+}
+
+
+// JQUERY CLASSES
+.hd{
+  width:80%;
+  font-size: 20px;
+  margin: 3%;
+  text-align: center;
+  
+}
+.exp1{
+  width :100%;
+  vertical-align:top;
+  padding-left:3%;
+}
+.ico{
+  width: 30px;
+  height:30px;
+  border-radius:50px;
+  text-align: center;
+  position : relative;
+  display : inline-block;
+  border :1px solid lightgrey;
+  letter-spacing: 2px;
+}
+.ic{
+  position : absolute;
+  left:11px;
+  font-size:1.5em;
+}
+
+.icp{
+  position : absolute;
+  left:8px;
+  bottom:4px;
+  font-size:1.5em;
+}
+.items{
+  width :65%;
+  display: inline-block;
+  vertical-align: top;
+  letter-spacing: 2px;
+  padding-left : 2%;
+  margin-top: 0;
+  color:grey;
+
+}
+h4{
+  margin: 0 auto;
+}
+
+h6{
+  color: lightgrey;
+  padding-top : 0;
+}
+.sm{
+  vertical-align: top;
+}
+.amt{
+  width:15%;
+  display : inline-block;
+  color:green;
+  letter-spacing: 2px;
+  vertical-align: top;
+}
+
+h1{
+  text-align: center;
+}
+
+.tot{
+  padding-left :40%;
+  font-size: 30px;
+  color:black;
+}
+
